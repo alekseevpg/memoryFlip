@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B2F5F0C1DEB256B002B319B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5F0B1DEB256B002B319B /* AppDelegate.swift */; };
-		3B2F5F0E1DEB256B002B319B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5F0D1DEB256B002B319B /* ViewController.swift */; };
 		3B2F5F111DEB256B002B319B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F5F0F1DEB256B002B319B /* Main.storyboard */; };
 		3B2F5F131DEB256B002B319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F5F121DEB256B002B319B /* Assets.xcassets */; };
 		3B2F5F161DEB256B002B319B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F5F141DEB256B002B319B /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		3B2F5F3D1DEB3987002B319B /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5F3C1DEB3987002B319B /* Animal.swift */; };
 		3B2F5F3F1DEB3CEC002B319B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5F3E1DEB3CEC002B319B /* Deck.swift */; };
 		3B2F5F421DEB448D002B319B /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F5F411DEB448D002B319B /* CardCell.swift */; };
+		3B7B75D51DEE249C00EC7529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B75D41DEE249C00EC7529 /* ViewController.swift */; };
 		3BE2D3D81DEB653C00958C9C /* Highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2D3D71DEB653C00958C9C /* Highscore.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 /* Begin PBXFileReference section */
 		3B2F5F081DEB256B002B319B /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2F5F0B1DEB256B002B319B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B2F5F0D1DEB256B002B319B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B2F5F101DEB256B002B319B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B2F5F121DEB256B002B319B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B2F5F151DEB256B002B319B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		3B2F5F3C1DEB3987002B319B /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = Model/Animal.swift; sourceTree = "<group>"; };
 		3B2F5F3E1DEB3CEC002B319B /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Model/Deck.swift; sourceTree = "<group>"; };
 		3B2F5F411DEB448D002B319B /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = Views/CardCell.swift; sourceTree = "<group>"; };
+		3B7B75D41DEE249C00EC7529 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Views/ViewController.swift; sourceTree = "<group>"; };
 		3BE2D3D71DEB653C00958C9C /* Highscore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Highscore.swift; path = Logic/Highscore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +107,6 @@
 				3B2F5F401DEB4478002B319B /* Views */,
 				3B2F5F391DEB2659002B319B /* Model */,
 				3B2F5F0B1DEB256B002B319B /* AppDelegate.swift */,
-				3B2F5F0D1DEB256B002B319B /* ViewController.swift */,
 				3B2F5F0F1DEB256B002B319B /* Main.storyboard */,
 				3B2F5F121DEB256B002B319B /* Assets.xcassets */,
 				3B2F5F141DEB256B002B319B /* LaunchScreen.storyboard */,
@@ -138,6 +137,7 @@
 		3B2F5F401DEB4478002B319B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3B7B75D41DEE249C00EC7529 /* ViewController.swift */,
 				3B2F5F411DEB448D002B319B /* CardCell.swift */,
 			);
 			name = Views;
@@ -288,11 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2F5F0E1DEB256B002B319B /* ViewController.swift in Sources */,
 				3B2F5F3D1DEB3987002B319B /* Animal.swift in Sources */,
 				3B2F5F3F1DEB3CEC002B319B /* Deck.swift in Sources */,
 				3B2F5F3B1DEB3885002B319B /* Card.swift in Sources */,
 				3B2F5F0C1DEB256B002B319B /* AppDelegate.swift in Sources */,
+				3B7B75D51DEE249C00EC7529 /* ViewController.swift in Sources */,
 				3BE2D3D81DEB653C00958C9C /* Highscore.swift in Sources */,
 				3B2F5F421DEB448D002B319B /* CardCell.swift in Sources */,
 			);
